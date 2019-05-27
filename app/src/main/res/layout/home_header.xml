@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="10dp"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/app_icon"
+        android:padding="20dp"
+        android:id="@+id/home_header_logo"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#2956A3"
+        android:text="Calcin-O Maxpro Cricket Fever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/home_header_logo"
+
+        />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>

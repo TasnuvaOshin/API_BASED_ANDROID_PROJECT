@@ -1,0 +1,438 @@
+<resources>
+    <string name="app_name">Calcin-O MaxPro Cricket Fever</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="gm_normal">
+        <item>Select</item>
+        <item>MR. SHAMSUR RAHMAN BHUIYAN</item>
+        <item>MR. A. M. ANISUZZAMAN</item>
+        <item>MR. MOHAMMED ABU MUSA BHUIYAN</item>
+    </string-array>
+
+    //5
+    <string-array name="rsm1">
+
+        <item>MR. MD. AMIRUL ISLAM</item>
+        <item>MR. MOHAMMAD MANIK MIA</item>
+        <item>MR. TAJ H. M. ABUL HOSSAIN</item>
+        <item>MR. MD. SHAHADAT HOSSAIN MOZUMDAR</item>
+        <item>MR. MD. KAMRUL HASAN</item>
+        <item>MR. MD. MAHFUZUR REZA MIA</item>
+        <item>MR. MD. ABDUL LATIF</item>
+        <item>MR. MD. MANIR HOSSAIN</item>
+    </string-array>
+
+
+    //9
+    <string-array name="rsm2">
+
+        <item>MR. MD. MAHBUBUR RAHMAN MOZUMDER</item>
+        <item>MR. MOMINUL HAQUE BHUIYAN</item>
+        <item>MR. MUKTESHWAR CHAKROBORTTY</item>
+        <item>MR. MD. ZAHIRUL ISLAM (TF NARSINGDI)</item>
+        <item>MR. FOIZUL KABIR</item>
+        <item>MR. MD. MAMUNUR RASHID</item>
+        <item>MR. JASHIM UDDIN</item>
+        <item>MR. MD. ASHRAFUL ISLAM</item>
+        <item>MR. MD. GOLAM RABBABI RUSSELL</item>
+
+
+    </string-array>
+
+    //20
+    <string-array name="rsm3">
+        <item>MR.REZAUL KARIM</item>
+        <item>MR. ABDUL KAYUM FAKIR</item>
+        <item>MR. S.M. MONUAR JAHAN</item>
+        <item>MR. MD. SHAHJAHAN KABIR</item>
+        <item>MR. MD. NAZRUL ISLAM</item>
+        <item>MR. KAZI ABDULLAH AL MASUD</item>
+        <item>MR. R. K. DEBNATH</item>
+        <item>MR. MD. RAFIQUL ISLAM</item>
+        <item>MR. UZZAL MIAH</item>
+    </string-array>
+    //21
+    <string-array name="rsm4">
+
+        <item>MR. UTPAL SAHA</item>
+        <item>Nayan Chandra Ghosh</item>
+        <item>MR. MD. A.N.M. ARIFUR RAHMAN</item>
+        <item>MR. MD. MAZAHARUL ISLAM</item>
+        <item>MR. SHUJIT KUMAR DAS</item>
+        <item>MR. MD. RABIUL ISLAM</item>
+        <item>MR. MD. ABUL KALAM AZAD</item>
+        <item>MR. MD. BAQUL HOSSAIN</item>
+        <item>MR. MOHAMMAD BAIZID</item>
+    </string-array>
+    //18
+    <string-array name="rsm5">
+        <item>MR. KAZI MD. SHAMEEM AKTER (TF RMCH)</item>
+        <item>MR. BISHWAJIT PODDER</item>
+        <item>MR. MOSTAFA MIZANUR RAHMAN</item>
+        <item>MR. S.M. MAHMUD HOSSAIN</item>
+        <item>MR. JAHANGIR HOSSAIN</item>
+        <item>MR. MD. MONIRUZZAMAN</item>
+
+    </string-array>
+    //25
+    <string-array name="rsm6">
+        <item>MR. ABUL KALAM AZAD</item>
+        <item>MR. MD. MOZIBUL HOQUE</item>
+        <item>MR. MD. BELLAL HOSEN</item>
+        <item>MR. POLASH CHANDRA GHOSH</item>
+        <item>MR. DEB DULAL SARKER</item>
+        <item>MR. KIRON CHANDRA DEBNATH</item>
+        <item>MR. KHURSHADUL HOQUE</item>
+        <item>MR. MD. TOFAEL AHMED</item>
+        <item>MR. MD. SAIDUZZAMAN ARIF</item>
+        <item>MR. MD. ALAMGIR KABIR</item>
+    </string-array>
+    //6
+    <string-array name="rsm7">
+        <item>MR. MOHAMMAD RASHED MILON</item>
+        <item>MR. D. M. SHAFIUL AZAM</item>
+        <item>MR. SIDDIQUR RAHMAN</item>
+        <item>MR. LITON KUMAR DEB</item>
+        <item>MR. MD. NUR NABI</item>
+        <item>MR. MD. ANOWAR HOSSAIN</item>
+    </string-array>
+    //3
+    <string-array name="rsm8">
+
+        <item>MR. MUHAMMAD SIBLY KHAN</item>
+        <item>MR. MD. MASUD KARIM</item>
+        <item>MR. MD. SHUHAS MUJAHID</item>
+        <item>MR. KAMRUL HASAN</item>
+        <item>MR. MD. RAFIKUL ISLAM</item>
+        <item>MR. KAMAL KANTA BARMAN</item>
+        <item>MR. SHIBLE RABBANE TALUKDER</item>
+        <item>MR. MD. ABDUL KHALEQUE</item>
+    </string-array>
+
+
+    <string-array name="rsm_normal">
+        <item>Select</item>
+        <item>MR. A.B.M. AHSANUL HOQUE</item>
+        <item>MR. MD. TARIQUL ISLAM</item>
+        <item>MR. MD. ISMAIL HOSSAIN</item>
+        <item>MR. MD. ROBIUL OUAL</item>
+        <item>MR. MD. MOHIUDDIN ZELANE</item>
+        <item>MR. MD. NIZAM UDDIN</item>
+        <item>MR. MD. NASIR UDDIN HAIDER</item>
+        <item>MR. FARUQUE HOSSAIN BHUIYAN</item>
+        <item>MR. A.K. M. MAHFUZUR RAHMAN</item>
+        <item>MR. MD. AZIZUR RAHMAN</item>
+        <item>MR. MD. AZHARUL ISLAM KHAN</item>
+        <item>MR. MONJURUL AZIZ</item>
+        <item>MR. MD. KAMRUZZAMAN</item>
+        <item>MR. MD. AMINUR RAHMAN</item>
+        <item>MR. MD. ABDULLAH AL MAMUN</item>
+        <item>MR. MD. SIDDIQUR RAHMAN</item>
+        <item>MR. H. M. MONIRUZZAMAN</item>
+        <item>MR. MD. SHAFIQUL ISLAM</item>
+        <item>MR. KAZI BENOZIR AHMED</item>
+        <item>MR. MD. SHAKHWAT HOSSAIN</item>
+        <item>MR. MD. NASIR UDDIN HAIDER</item>
+        <item>MR. SUJIT KUMAR BASAK</item>
+        <item>MR. MD. NASIR UDDIN</item>
+        <item>MR. MD. ABU YOUSUF RANA</item>
+    </string-array>
+
+    //10
+    <string-array name="rsm9">
+        <item>MR. SAIOD AWALUR RAHMAN</item>
+        <item>MR. MD. MAHBUBUL ALAM</item>
+        <item>MR. ABDULLAH AL MAMUN</item>
+        <item>MR. MD. TAWHIDUL ISLAM</item>
+        <item>MR. MD. TOFAZZAL HOSSAIN</item>
+        <item>MR. MASUD AKTER</item>
+    </string-array>
+    //1
+    <string-array name="rsm10">
+        <item>MR. MD. ZIAUR RAHMAN</item>
+        <item>MR. PALASH KUMAR DAS</item>
+        <item>MR. PALASH KUMAR SAHA</item>
+        <item>MR. INDROJIT KUMAR DATTA</item>
+        <item>MR. MD. JHAHANGIR KABIR</item>
+        <item>MR. ABU HENA MORSHED REZVEE</item>
+        <item>MR. MD. ZAFOR IKBAL</item>
+        <item>MR. TAPAN KUMAR SAHA</item>
+        <item>MR. MD. MOKHLESUR RAHMAN</item>
+        <item>MR. NAZMUL HOSSAIN</item>
+    </string-array>
+    //8
+    <string-array name="rsm11">
+        <item>MR. MOHAMMAD RAFIQUL ISLAM</item>
+        <item>MR. MOHAMMAD. ALAUDDIN</item>
+        <item>MR. MUHAMMAD MAHBUBUR RAHMAN</item>
+        <item>MR. MOHAMMAD FOQRUL ISLAM</item>
+        <item>MR. MOHAMMAD WAHIDUZZAMAN</item>
+        <item>MR. HARUNORRASHID</item>
+    </string-array>
+    //18
+    <string-array name="rsm12">
+        <item>MR. KRISHNA PADA PAUL</item>
+        <item>MR. MD. MIZANUR RAHMAN</item>
+        <item>MR. MD. MONIRUZZAMAN</item>
+        <item>MR . ABDUR ROUF</item>
+        <item>MR. MD. MINARUL ISLAM</item>
+        <item>MR. AMIT KUMAR SAHA</item>
+        <item>MR. MD. BULBUL AZAD</item>
+        <item>MR. MD. HABIBULLAH AZAD</item>
+        <item>MR. A.K.M. SHAHINUL ISLAM</item>
+    </string-array>
+
+    //23
+    <string-array name="rsm13">
+        <item>MR. MD. MAHBUB ALOM</item>
+        <item>MR. MD. SHIMUL HOSSAIN</item>
+        <item>MR. MD. RAZU AHMED</item>
+        <item>MR. H.M. ANOWAR</item>
+        <item>MR. MD. MOMINUL  ISLAM</item>
+        <item>MR. MD. TAFSIRUL ISLAM</item>
+    </string-array>
+
+
+    <string-array name="gm1">
+        <item>MR. MD. MOHIUDDIN ZELANE</item>
+        <item>MR. MD. NASIR UDDIN</item>
+        <item>MR. MD. SHAFIQUR RAHMAN</item>
+        <item>MR. MD. ABU YOUSUF RANA</item>
+        <item>MR. MD. ABDULLAH AL MAMUN</item>
+        <item>MR. MD. AMINUR RAHMAN</item>
+        <item>MR. MD. SHAKHWAT HOSSAIN</item>
+        <item>MR. MD. AZIZUR RAHMAN</item>
+        <item>MR. A.B.M. AHSANUL HOQUE</item>
+
+
+    </string-array>
+
+    <!---gm2 data for rsm-->
+
+
+    <string-array name="gm2">
+        <item>MR. SUJIT KUMAR BASAK</item>
+        <item>MR. MD. AZHARUL ISLAM KHAN</item>
+        <item>MR. KAZI BENOZIR AHMED</item>
+        <item>MR. FARUQUE HOSSAIN BHUIYAN</item>
+        <item>MR. MD. SHAFIQUL ISLAM</item>
+        <item>MR. A.K. M. MAHFUZUR RAHMAN</item>
+    </string-array>
+
+
+    <!---gm3 data for rsm-->
+    <string-array name="gm3">
+
+        <item>MR. MD. NIZAM UDDIN</item>
+        <item>MR. MD. KAMRUZZAMAN</item>
+        <item>MR. MONJURUL AZIZ</item>
+        <item>MR. MD. SIDDIQUR RAHMAN</item>
+        <item>MR. MD. FARUK HOSSAIN</item>
+        <item>MR. MD. ROBIUL OUAL</item>
+        <item>MR. MD. NASIR UDDIN HAIDER</item>
+        <item>MR. MD. ISMAIL HOSSAIN</item>
+
+
+    </string-array>
+    <string-array name="dsm_normal">
+        <item>MR. PALASH KUMAR DAS </item>
+        <item>MR. NAZMUL HOSSAIN</item>
+        <item>MR. MD. ZAFOR IKBAL</item>
+        <item>MR. PALASH KUMAR SAHA</item>
+        <item>MR. TAPAN KUMAR SAHA</item>
+        <item>MR. ABU HENA MORSHED REZVEE</item>
+        <item>MR. INDROJIT KUMAR DATTA</item>
+        <item>MR. MD. MOKHLESUR RAHMAN</item>
+        <item>MR. MD. JHAHANGIR KABIR</item>
+        <item>MR. MD. RAFIQUL ISLAM</item>
+        <item>MR. MD. NAGIM UDDIN</item>
+        <item>MR. MD. ABDUL MOTALLIB</item>
+        <item>MR. MD. SAIFUL BARI</item>
+        <item>MR. MD. ARIFUR RAHMAN</item>
+        <item>MR. KAZI KAMAL HOSSAIN</item>
+        <item>MR. A.K.M. RABIUL ALAM</item>
+        <item>MR. MOHSINUL HAQUE</item>
+        <item>MR. MD. EMDADUL HAQUE</item>
+        <item>MR. MUHAMMAD SIBLY KHAN</item>
+        <item>MR. MD. ABDUL KHALEQUE</item>
+        <item>MR. MD. MASUD KARIM</item>
+        <item>MR. KAMAL KANTA BARMAN</item>
+        <item>MR. MD. SHUHAS MUJAHID</item>
+        <item>MR. KAMRUL HASAN</item>
+        <item>MR. MD. RAFIKUL ISLAM</item>
+        <item>MR. SHIBLE RABBANE TALUKDER</item>
+        <item>MR. MD. REZAUL KARIM</item>
+        <item>MR. MD. MONIRUZZAMAN</item>
+        <item>MR. MAHMUD ALOM</item>
+        <item>MR. MD. OSMAN MITDHA</item>
+        <item>MR. BAHAR HOSSAIN MOLLA</item>
+        <item>MR. CHOUDHURY SHAHIDUZZAMAN</item>
+        <item>MR. MOHAMMAD SAFIKUL ISLAM</item>
+        <item>MR. MD. SOWKAT ALAM</item>
+        <item>MR. MD. AMIRUL ISLAM</item>
+        <item>MR. MOHAMMAD MANIK MIA</item>
+        <item>MR. TAJ H. M. ABUL HOSSAIN</item>
+        <item>MR. MD. SHAHADAT HOSSAIN MOZUMDAR</item>
+        <item>MR. MD. KAMRUL HASAN</item>
+        <item>MR. MD. MAHFUZUR REZA MIA</item>
+        <item>MR. MD. ABDUL LATIF</item>
+        <item>MR. MD. MANIR HOSSAIN</item>
+        <item>MR. MOHAMMAD RASHED MILON</item>
+        <item>MR. D. M. SHAFIUL AZAM</item>
+        <item>MR. MD. ANOWAR HOSSAIN</item>
+        <item>MR. SIDDIQUR RAHMAN</item>
+        <item>MR. MD. NUR NABI</item>
+        <item>MR. LITON KUMAR DEB</item>
+        <item>MR. MOHAMMAD BAIZID</item>
+        <item>MR. MD. MAZAHARUL ISLAM</item>
+        <item>MR. SHUJIT KUMAR DAS</item>
+        <item>MR. UTPAL SAHA</item>
+        <item>MR. MD. RABIUL ISLAM</item>
+        <item>MR. MD. A.N.M. ARIFUR RAHMAN</item>
+        <item>MR. MD. BAQUL HOSSAIN</item>
+        <item>Nayan Chandra Ghosh</item>
+        <item>MR. ABUL FAZAL MD. ABDULLA RASSEL</item>
+        <item>MR. ABU SADAT MD. SAYEM</item>
+        <item>MR. MIR MOSHEROF HOSSAIN</item>
+        <item>MR. ABU TAHER</item>
+        <item>MR. MD. SHAFIQUL ISLAM</item>
+        <item>MR. MOHAMMAD SAHIDUL ISLAM</item>
+        <item>MR. GIASH UDDIN CHOWDHURY</item>
+        <item>MR. SK. ABUL KASEM RAIHAN</item>
+        <item>MR. ABDUR RASHID MIAH</item>
+        <item>MR. MOMINUL HAQUE BHUIYAN</item>
+        <item>MR. FOIZUL KABIR</item>
+        <item>MR. GOLAM RABBANI RUSSEL</item>
+        <item>MR. JASHIM UDDIN</item>
+        <item>MR. MD. MAHBUBUR RAHMAN MOZUMDER</item>
+        <item>MR. MD. ZAHIRUL ISLAM</item>
+        <item>MR. MD. MAMUNUR RASHID</item>
+        <item>MR. MUKTESHWAR CHAKROBORTTY</item>
+        <item>MR. MD. ASHRAFUL ISLAM</item>
+        <item>MR. SAIOD AWALUR RAHMAN</item>
+        <item>MR. ABDULLAH AL MAMUN</item>
+        <item>MR. MD. TOFAZZAL HOSSAIN</item>
+        <item>MR. MD. TAWHIDUL ISLAM</item>
+        <item>MR. MASUD AKTER</item>
+        <item>MR. MD. MAHBUBUL ALAM</item>
+        <item>MR.REZAUL KARIM PATWARY.</item>
+        <item>MR.MD.MOSHARRAF HOSSAIN PATWARY</item>
+        <item>MR. MD. MOINUL HASAN</item>
+        <item>MR. MD. ZAYADE ASAD AKANDA</item>
+        <item>MR. DEWAN SAIFUL ISLAM</item>
+        <item>MR. MD. MAHBOBOL ALAM</item>
+        <item>MR. MOHAMMAD ABUL KALAM</item>
+        <item>MR. SAYEM UDDIN MUNSIJADA</item>
+        <item>MR SHOFIKUL ISLAM</item>
+        <item>MR. TAREQ HASAN PORAG</item>
+        <item>MR. SUJIT KUMAR GHOSH</item>
+        <item>MR. MD. ASHIQUZZAMAN</item>
+        <item>MR. MD. IKBAL HOSSAIN</item>
+        <item>MR. MD. ROBIUL HASAN</item>
+        <item>MR. SHIMUL MAHMUD</item>
+        <item>MR. MUHAMMAD SHAHIN</item>
+        <item>MR. MD. JOYNAL ABEDIN</item>
+        <item>MR. MD. MONIRUZZAMAN</item>
+        <item>MR. MD. RAFIQUL ISLAM</item>
+        <item>MR. ABDULHYEALHADI</item>
+        <item>MR. MD. SAIFULLAH</item>
+        <item>MR. MANIK CHANDRA SAHA CHY</item>
+        <item>MR. GOLAM RASUL</item>
+        <item>Md. Zahirul Islam</item>
+        <item>MR. MD. NURUL AMIN</item>
+        <item>MR. MD. SHAMSUL ALAM</item>
+        <item>MR. MD. ABDUL ALIM</item>
+        <item>MR. KHANDAKER REZAUL KARIM</item>
+        <item>MR. S. M. WADUDUL ISLAM</item>
+        <item>MR. MD. MAHAMUDUL HASAN</item>
+        <item>MR. MAHMUDUL HASAN TAREQ</item>
+        <item>MR. MD. SHAJJAD HUSAIN AKAND</item>
+        <item>MR. MD. SHAHABUDDIN MOLLA</item>
+        <item>MR. S. M. RAKIBUL ISLAM</item>
+        <item>MR. AKASH PAUL</item>
+        <item>MR. MD. AKHLAK HOSSAIN CHOWDHURY</item>
+        <item>MR. MD . MOSHARROF HOSSAIN</item>
+        <item>MR. MD. LUTFAR RAHMAN</item>
+        <item>MR. MOHAMMAD SHARIFUL ALAM</item>
+        <item>MR. MD. ABDUL ALIM</item>
+        <item>MR. MD. EASIN ALI SARKER</item>
+        <item>MR. SUMAN KUMAR SAHA</item>
+        <item>MR. MD. MASHUD ALAM</item>
+        <item>MR. MD. ASM SHAHID UDDIN</item>
+        <item>MR. MD. ALAUDDIN</item>
+        <item>MR. MD. SHAHIDUR RAHMAN</item>
+        <item>MR. MD. MUSHAIB HOSSAIN</item>
+        <item>MR. MAIDUL ISLAM</item>
+        <item>MR. MOHAMMAD MAHBUB ALAM</item>
+        <item>MR . MD . BOKHTIAR UDDIN</item>
+        <item>MR. MD. ABDUL HANNAN MIA</item>
+        <item>MR. SHAIKH NURUL ISLAM</item>
+        <item>MR. MD. SANWAR HOSSAIN</item>
+        <item>MR. MD. NAZMUL HOQUE</item>
+        <item>MR. MD. ANWARUL ISLAM</item>
+        <item>MR. MD. SAYEDUR RAHMAN SARKAR</item>
+        <item>MR. KRISHNA PADA PAUL</item>
+        <item>MR. MD. MIZANUR RAHMAN</item>
+        <item>MR. MD. MONIRUZZAMAN</item>
+        <item>MR . ABDUR ROUF</item>
+        <item>MR. MD. HABIBULLAH AZAD</item>
+        <item>MR. MD. BULBUL AZAD</item>
+        <item>MR. MD. MINARUL ISLAM</item>
+        <item>MR. A.K.M. SHAHINUL ISLAM</item>
+        <item>MR. AMIT KUMAR SAHA</item>
+        <item>MR.MD. KHORSHED ALAM</item>
+        <item>MR. MD. ABDUR RAZZAK</item>
+        <item>MR. MD. IMRAN ALI</item>
+        <item>MR. ABU HANIF</item>
+        <item>MR. MD. UZZAL AHMED</item>
+        <item>MR.REZAUL KARIM</item>
+        <item>MR. ABDUL KAYUM FAKIR</item>
+        <item>MR. S.M. MONUAR JAHAN</item>
+        <item>MR. MD. SHAHJAHAN KABIR</item>
+        <item>MR. UZZAL MIAH</item>
+        <item>MR. KAZI ABDULLAH AL MASUD</item>
+        <item>MR. R. K. DEBNATH</item>
+        <item>MR. MD. NAZRUL ISLAM</item>
+        <item>MR. MD. RAFIQUL ISLAM</item>
+        <item>MR. BISHWAJIT PODDER</item>
+        <item>MR. MOSTAFA MIZANUR RAHMAN</item>
+        <item>MR. S.M. MAHMUD HOSSAIN</item>
+        <item>MR. JAHANGIR HOSSAIN</item>
+        <item>MR. KAZI MD. SHAMEEM AKTER</item>
+        <item>MR. MD. MONIRUZZAMAN</item>
+        <item>MD.ABUL KALAM AZAD</item>
+        <item>MR.ABU SHAHIN</item>
+        <item>MR. MD. GOLAM RABBANI</item>
+        <item>MIR ABDUL AWAL</item>
+        <item>MR. SHAIKH ALIM AL AMIN</item>
+        <item>MR. PARVEZ KABIR</item>
+        <item>MR. MD. RAFIQUL ISLAM</item>
+        <item>MR. MD. TOFAYEL AHMED</item>
+        <item>MR. AMANUR MOLLA</item>
+        <item>MR. MD. SHIMUL HOSSAIN</item>
+        <item>MR. MD. RAZU AHMED</item>
+        <item>MR. MD. TAFSIRUL ISLAM</item>
+        <item>MR. H.M. ANOWAR</item>
+        <item>MR. MD. MOMINUL ISLAM</item>
+        <item>MR. MD. MAHBUB ALOM</item>
+        <item>MR. MOHAMMAD RAFIQUL ISLAM</item>
+        <item>MR. MOHAMMAD. ALAUDDIN</item>
+        <item>MR. MUHAMMAD MAHBUBUR RAHMAN</item>
+        <item>MR. MOHAMMAD FOQRUL ISLAM</item>
+        <item>MR. MOHAMMAD WAHIDUZZAMAN</item>
+        <item>MR. HARUNORRASHID</item>
+        <item>MR. MD. MOZIBUL HOQUE</item>
+        <item>MR. POLASH CHANDRA GHOSH</item>
+        <item>MR. MD. TOFAEL AHMED</item>
+        <item>MR. KHURSHADUL HOQUE</item>
+        <item>MR. DEB DULAL SARKER</item>
+        <item>MR. MD. BELLAL HOSEN</item>
+        <item>MR. MD. SAIDUZZAMAN ARIF</item>
+        <item>MR. KIRON CHANDRA DEBNATH</item>
+        <item>MR. ABUL KALAM AZAD</item>
+        <item>MR. MD. ALAMGIR KABIR</item>
+    </string-array>
+
+</resources>

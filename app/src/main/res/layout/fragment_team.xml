@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BottomNav.TeamFragment">
+    <android.support.v7.widget.CardView
+        android:id="@+id/banner_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp">
+
+        <ImageView
+            android:id="@+id/iv_banner_ads"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/maxpro" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/home_next_match"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banner_section"
+        android:layout_marginBottom="6dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="6dp"
+        android:text="Touch The Team to See Squads"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.RecyclerView
+
+        android:layout_below="@+id/home_next_match"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/team_recyclerview"
+
+        />
+
+</RelativeLayout>

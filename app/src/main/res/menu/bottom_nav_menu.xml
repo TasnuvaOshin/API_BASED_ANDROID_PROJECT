@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+
+        />
+    <item
+        android:title="Live"
+        android:id="@+id/live"
+        android:icon="@drawable/live_match"
+        />
+
+
+
+
+    <item android:title="Fixture"
+        android:id="@+id/fixture"
+        android:icon="@drawable/icon_fixture"
+        />
+    <item android:title="Team's"
+        android:id="@+id/team_profile"
+        android:icon="@drawable/icon_team"
+        />
+
+    <item android:title="Profile"
+        android:id="@+id/user_profile"
+        android:icon="@drawable/profile"
+        />
+
+</menu>

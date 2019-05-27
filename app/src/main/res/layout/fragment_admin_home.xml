@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AdminPanel.AdminHomeFragment">
+
+    <Button
+        android:id="@+id/btn_admin_reg_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Registration Status"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Registration Details"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Quiz Participant Status"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Quiz Participant Details"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="My Team Participant Status"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="My Team Participant Details"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        />
+
+
+</LinearLayout>

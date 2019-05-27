@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "92627855092",
+    "firebase_url": "https://crick-3cc5d.firebaseio.com",
+    "project_id": "crick-3cc5d",
+    "storage_bucket": "crick-3cc5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92627855092:android:2bce16003c1ce946",
+        "android_client_info": {
+          "package_name": "cricketworldcup.worldcup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92627855092-hj54f3r54ot10svnep8lumvddtdulvb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cricketworldcup.worldcup",
+            "certificate_hash": "75c59292061bbcbc11754e0ed2a4daaebdbb8b84"
+          }
+        },
+        {
+          "client_id": "92627855092-fvileg8jp7d7loe3ulgvak0dlef4nfjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cricketworldcup.worldcup",
+            "certificate_hash": "2ca71820f644e637b359704981c84f490446de36"
+          }
+        },
+        {
+          "client_id": "92627855092-tj5qudg22qp2h68qlk9hhi8helt0b8kl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cricketworldcup.worldcup",
+            "certificate_hash": "c5006ace9834d3009450caf340f1f59173096fbd"
+          }
+        },
+        {
+          "client_id": "92627855092-79i9jv24mathml8kqfg6k278frpt2lk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT3TAZRhughXW-f3HWEJf2ae6e8wYxkvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92627855092-79i9jv24mathml8kqfg6k278frpt2lk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

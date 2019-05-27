@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/admin_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+       />
+
+    <item
+        android:id="@+id/admin_quiz"
+        android:title="Quiz Setting"
+        android:icon="@drawable/match_quiz"
+        />
+    <item
+        android:id="@+id/admin_banner"
+        android:title="Banner Setting"
+        android:icon="@drawable/ic_assistant_black_24dp"
+        />
+
+</menu>

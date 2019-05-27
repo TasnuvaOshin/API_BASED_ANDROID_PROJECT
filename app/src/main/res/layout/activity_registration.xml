@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authentication.RegistrationActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/root"
+        android:background="@drawable/nicebc"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_top"
+            android:visibility="gone"
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorPrimary"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="6dp"
+                android:text="Calcin-O Maxpro Cricket Fever"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/iv_login"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/cv_top"
+            android:padding="16dp"
+            android:onClick="GoToLoginPage"
+            />
+
+
+        <RelativeLayout
+
+            android:layout_marginTop="46dp"
+            android:id="@+id/registration_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_login"
+
+
+            >
+
+
+            <LinearLayout
+                android:id="@+id/doctor_name_input_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_login"
+                    android:layout_marginLeft="15dp"
+                    android:text="Doctor Name "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_reg_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_login"
+                    android:layout_alignTop="@+id/tv_mobile_no"
+                    android:layout_alignBottom="@+id/tv_mobile_no"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_toRightOf="@+id/tv_mobile_no"
+                    android:background="#FFFFFF"
+                    android:gravity="start"
+                    android:inputType="text"
+                    android:maxLength="14"
+                    android:padding="4dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/doctor_email_input_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctor_name_input_section"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/tv_email_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_login"
+                    android:layout_marginLeft="15dp"
+                    android:text="E-mail "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:text="abc@gmail.com"
+                    android:id="@+id/et_reg_email_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_login"
+                    android:layout_alignTop="@+id/tv_mobile_no"
+                    android:layout_alignBottom="@+id/tv_mobile_no"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_toRightOf="@+id/tv_mobile_no"
+                    android:background="#FFFFFF"
+                    android:gravity="start"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="34"
+                    android:padding="4dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/doctor_mobile_no_input_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctor_email_input_section"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_mobile_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_login"
+                    android:layout_marginLeft="15dp"
+                    android:text="Mobile No "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_reg_mobile_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_login"
+                        android:layout_alignTop="@+id/tv_mobile_no"
+                        android:layout_alignBottom="@+id/tv_mobile_no"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_toRightOf="@+id/tv_mobile_no"
+                        android:background="#FFFFFF"
+                        android:gravity="start"
+                        android:inputType="number"
+                        android:maxLength="14"
+                        android:padding="4dp" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/doctor_dsm_input_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctor_mobile_no_input_section"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_dsm_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_login"
+                    android:layout_marginLeft="15dp"
+                    android:text="DSM Code "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_reg_dsm_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_login"
+                        android:layout_alignTop="@+id/tv_mobile_no"
+                        android:layout_alignBottom="@+id/tv_mobile_no"
+                        android:layout_marginLeft="33dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_toRightOf="@+id/tv_mobile_no"
+                        android:background="#FFFFFF"
+                        android:gravity="start"
+                        android:maxLength="14"
+                        android:padding="4dp" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_signin"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doctor_dsm_input_section"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="#2956A3"
+                android:onClick="SignUpProcess"
+                android:padding="6dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Sign Up"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/registration_verifiy"
+            android:layout_below="@id/iv_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:layout_marginTop="65dp"
+            >
+
+            <TextView
+
+                android:id="@+id/tv_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="Enter Verification Code"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/et_verification_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_verify"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginEnd="35dp"
+                android:background="#FFFFFF"
+                android:gravity="start"
+                android:inputType="text"
+                android:maxLength="14"
+                android:padding="8dp" />
+
+
+            <android.support.design.button.MaterialButton
+                android:id="@+id/btn_verfify"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_verification_code"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="6dp"
+                android:background="#2956A3"
+                android:onClick="VerifyProcess"
+                android:padding="6dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Verify"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RetrofitTest">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:id="@+id/target"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/fing"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/fteamname"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/fteamscore"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/fteamwicket"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/fteamover"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/Sing"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/Steamname"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/Steamscore"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/Steamwicket"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:id="@+id/Steamover"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+
+        />
+</LinearLayout>

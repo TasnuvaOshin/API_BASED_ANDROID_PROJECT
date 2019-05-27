@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="6dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+           />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/fixture_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Match 1,May 30, Thu"
+            android:textAlignment="center"
+            android:textColor="#ff0000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fixture_venue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fixture_time"
+            android:fontFamily="sans-serif"
+            android:text="Kennington Oval, London ,3:30 PM"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ff0000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fixture_teamone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fixture_venue"
+            android:fontFamily="sans-serif"
+            android:text="England"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#1d1d1B"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fixture_vs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fixture_teamone"
+            android:fontFamily="sans-serif"
+            android:text="vs"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#1d1d1B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fixture_teamtwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fixture_vs"
+            android:fontFamily="sans-serif"
+            android:text="South Africa"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#1d1d1B"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

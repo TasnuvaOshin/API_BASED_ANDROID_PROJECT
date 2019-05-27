@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authentication.LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nicebc">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="6dp"
+                android:text="Calcin-O Maxpro Cricket Fever"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_signup"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_section"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="45dp"
+            android:background="#2956A3"
+            android:onClick="SignUpCall"
+            android:padding="8dp"
+            android:text="Sign up"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_login"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="gone" />
+
+
+        <RelativeLayout
+            android:id="@+id/login_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_login"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="0dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/input_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_mobile_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_login"
+                    android:layout_marginLeft="50dp"
+                    android:text="Mobile No :"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_mobile_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_login"
+                    android:layout_alignTop="@+id/tv_mobile_no"
+                    android:layout_alignBottom="@+id/tv_mobile_no"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="38dp"
+                    android:layout_toRightOf="@+id/tv_mobile_no"
+                    android:background="#FFFFFF"
+                    android:gravity="start"
+                    android:inputType="number"
+                    android:maxLength="14"
+                    android:padding="6dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_signin"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_section"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginBottom="6dp"
+                android:background="#2956A3"
+                android:onClick="LogInProcess"
+                android:padding="8dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Log IN"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/login_verifiy_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_login"
+            android:layout_marginTop="200dp"
+            android:visibility="gone">
+
+            <TextView
+
+                android:id="@+id/tv_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="Enter Verification Code"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/et_verification_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_verify"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="#DADADADA"
+                android:gravity="start"
+                android:inputType="text"
+                android:maxLength="14"
+                android:padding="8dp" />
+
+
+            <android.support.design.button.MaterialButton
+                android:id="@+id/btn_verfify"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_verification_code"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="6dp"
+                android:background="@android:color/black"
+                android:onClick="VerifyProcess"
+                android:padding="6dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Verify"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

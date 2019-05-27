@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:id="@+id/g1">
+    <item
+        android:id="@+id/home_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        >
+
+    </item>
+</group>
+    <group
+        android:id="@+id/g2">
+    <item
+        android:id="@+id/home_live"
+        android:title="Live"
+        android:icon="@drawable/live_match"
+        />
+</group>
+    <group
+        android:id="@+id/g3">
+    <item
+        android:id="@+id/home_fixture"
+        android:title="Fixture"
+        android:icon="@drawable/icon_fixture"
+      />
+    </group>
+    <group
+        android:id="@+id/g15">
+        <item
+            android:id="@+id/home_team"
+            android:title="Team"
+            android:icon="@drawable/icon_team"
+        />
+    </group>
+    <group
+        android:id="@+id/g4">
+    <item
+        android:id="@+id/home_standing"
+        android:title="Standings"
+        android:icon="@drawable/ic_assistant_black_24dp"
+
+     />
+    </group>
+    <group
+        android:id="@+id/g5">
+    <item
+        android:id="@+id/home_quiz"
+        android:title="Match Quiz"
+        android:icon="@drawable/ic_live_help_black_24dp"
+    />
+    </group>
+    <group
+        android:id="@+id/g6">
+    <item
+        android:id="@+id/home_quiz_score"
+        android:title="My Quiz Score"
+        android:icon="@drawable/ic_control_point_black_24dp"
+        />
+    </group>
+    <group
+        android:id="@+id/g12">
+        <item
+            android:id="@+id/home_quiz_winner"
+            android:title="Quiz Winner"
+            android:icon="@drawable/ic_assistant_black_24dp"
+        />
+    </group>
+    <group
+        android:id="@+id/g13">
+        <item
+            android:id="@+id/home_my_team"
+            android:title="My Team"
+            android:icon="@drawable/icon_team"
+            />
+    </group>
+    <group
+        android:id="@+id/g14">
+        <item
+            android:id="@+id/home_my_team_score"
+            android:title="My Team Score"
+            android:icon="@drawable/ic_control_point_black_24dp"
+           />
+    </group>
+
+    <group
+        android:id="@+id/g7">
+    <item
+        android:id="@+id/home_my_team_winner"
+        android:title="My Team Winner"
+        android:icon="@drawable/ic_assistant_black_24dp"
+  />
+    </group>
+    <group
+        android:id="@+id/g8">
+    <item
+        android:id="@+id/home_profile"
+        android:title="My Profile"
+        android:icon="@drawable/profile"
+         />
+    </group>
+    <group
+        android:id="@+id/g9">
+    <item
+        android:id="@+id/home_prize"
+        android:title="Prizes"
+        android:icon="@drawable/ic_assistant_black_24dp"
+         />
+    </group>
+    <group
+        android:id="@+id/g10">
+    <item
+        android:id="@+id/home_history"
+        android:title="History"
+        android:icon="@drawable/ic_assistant_black_24dp"
+     />
+    </group>
+    <group
+        android:id="@+id/g11">
+    <item
+        android:id="@+id/home_logout"
+        android:title="Log Out"
+        android:icon="@drawable/ic_call_missed_outgoing_black_24dp"
+
+   />
+    </group>
+</menu>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    tools:context=".Sidenav.MatchQuizFragment">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/banner_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp">
+
+        <ImageView
+            android:id="@+id/iv_banner_ads"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/maxpro" />
+    </android.support.v7.widget.CardView>
+
+
+    <ImageView
+        android:layout_below="@id/banner_section"
+        android:id="@+id/match_quiz_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/match_quiz" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/match_quiz_logo"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/quiz_section"
+
+            >
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="6dp"
+                app:cardElevation="10dp"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="#009FE3"
+                android:id="@+id/question1card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/match_quiz_label_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Question A"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:background="#2956A3"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:padding="6dp"
+                        android:textColor="#FFFFFF"
+                        />
+
+                    <TextView
+                        android:textColor="#FFFFFF"
+                        android:id="@+id/match_quiz_question_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/match_quiz_label_one"
+                        android:fontFamily="sans-serif"
+                        android:text="Who will win today?"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+
+                        />
+
+                    <TextView
+                        android:textColor="#FFFFFF"
+                        android:id="@+id/match_quiz_one_answer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/match_quiz_question_one"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Answer"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:id="@+id/options"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/match_quiz_one_answer"
+                        android:gravity="center">
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:padding="6dp"
+                            >
+
+                            <RadioButton
+                                android:textColor="#FFFFFF"
+                                android:id="@+id/rb_qus_one_op_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Option One"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                />
+
+                            <RadioButton
+                                android:textColor="#FFFFFF"
+                                android:id="@+id/rb_qus_one_op_two"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Option Two"
+
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                />
+
+
+                        </RadioGroup>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question1card"
+                app:cardBackgroundColor="#009FE3"
+                android:layout_margin="10dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="6dp"
+                android:id="@+id/question2card"
+                >
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    >
+
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/match_quiz_label_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="Question B"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:background="#2956A3"
+                        android:padding="6dp"
+                        android:textColor="#FFFFFF"
+                        />
+
+                    <TextView
+                        android:id="@+id/match_quiz_question_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/match_quiz_label_two"
+
+                        android:text="Who is the highest scorer of 2015 World cup?"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:padding="3dp"
+
+
+                        />
+                    <TextView
+                        android:textColor="#FFFFFF"
+                        android:id="@+id/match_quiz_two_answer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/match_quiz_question_two"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Answer"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/options_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/match_quiz_two_answer"
+                        android:gravity="center">
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:padding="6dp"
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_qus_two_op_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Option One"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/rb_qus_two_op_two"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Option Two"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF"
+                                />
+
+
+                        </RadioGroup>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_below="@id/question2card"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="Submit"
+                android:background="#2956A3"
+                android:id="@+id/bt_user_ans_submit"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/match_quiz_logo"
+        android:id="@+id/Show_Error"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already Submitted !"
+            android:textSize="26sp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/holo_orange_dark"
+
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
